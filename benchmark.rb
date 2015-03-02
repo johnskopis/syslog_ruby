@@ -1,13 +1,8 @@
 #!/usr/bin/env ruby
 #
-require 'benchmark'
+$:.unshift File.dirname("lib/syslog_ruby")
 
-# pass an arg to use the pure ruby Syslog module
-if !!ARGV[0]
-  puts "monkey patching Syslog module..."
-  require 'syslog_compat'
-end
-require 'syslog-logger'
+require 'benchmark'
 require 'syslog_ruby'
 
 
