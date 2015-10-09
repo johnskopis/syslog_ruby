@@ -4,8 +4,8 @@ require File.expand_path('../lib/syslog_ruby/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["John Skopis"]
   gem.email         = ["john.skopis@causes.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Ruby Logger that sends directly to a variety of syslog endpoints}
+  gem.summary       = %q{Ruby Logger that sends directly to a variety of syslog endpoints}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
